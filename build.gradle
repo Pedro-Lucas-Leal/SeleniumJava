@@ -16,11 +16,6 @@ dependencies {
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.13.0'
 }
 
-
-
-
-
-
 test {
     useJUnitPlatform()
 }
