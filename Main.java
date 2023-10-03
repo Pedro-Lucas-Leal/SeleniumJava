@@ -21,7 +21,7 @@ public class Main{
 
         clicar = driver.findElement(By.xpath("//*[@id=\"layers\"]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[3]/div/label/div/div[2]/div[1]/input"));
         clicar.click();
-        clicar.sendKeys("@BotSelenium123");
+        clicar.sendKeys("Selenium123");
         clicar = driver.findElement(By.xpath("//*[@id=\"layers\"]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div/div"));
         clicar.click();
         Thread.sleep(4000);
